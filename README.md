@@ -6,7 +6,8 @@ This design patterns a dual-purpose NAT Instance and Bastion Host inside a Publi
 The NAT instance routes outbound internet traffic for sensitive compute workloads living inside a Private Subnet while performing Network Address Translation (NAT) via iptables. 
 Additionally, secure administrative access is enabled via SSH Agent Forwarding without storing private SSH keys on the intermediate server.
 
-### PDF GUIDE: [NAT INSTANCE CONFIGURATION FOR CLOUD RESOURCES IN PRIVATE SUBNETS.pdf](https://github.com/user-attachments/files/32161994/NAT.INSTANCE.CONFIGURATION.FOR.CLOUD.RESOURCES.IN.PRIVATE.SUBNETS.pdf)
+### PDF GUIDE: [NAT INSTANCE AND BASTION HOST CONFIGURATION FOR PRIVATE SUBNET RESOURCES.pdf](https://github.com/user-attachments/files/32192741/NAT.INSTANCE.AND.BASTION.HOST.CONFIGURATION.FOR.PRIVATE.SUBNET.RESOURCES.pdf)
+
 
 
 ### WATCH VIDEO WALKTHROUGH HERE: https://youtu.be/UEvKNXq1fvc
