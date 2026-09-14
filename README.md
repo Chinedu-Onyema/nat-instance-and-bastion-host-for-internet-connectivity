@@ -74,8 +74,8 @@ AWS CloudShell or a local CLI terminal with an SSH client.
 
   Add the following line to the file:
   <PRE>net.ipv4.ip_forward = 1</PRE>
-```
-Apply sysctl parameters:
+  
+  Apply sysctl parameters:
 ```bash
 sudo sysctl -p /etc/sysctl.d/custom-ip-forwarding.conf
 ```
